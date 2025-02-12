@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ee21fc6063349b9b0dae9fc3a2b0f5, type: 3}
+  m_Name: FirstTask
+  m_EditorClassIdentifier: 
+  state: 3
+  dialogue:
+  - lines:
+    - "\u4F60\u597D,\u52C7\u8005"
+    - "\u80FD\u5E2E\u6211\u67403\u53EA\u72FC\u5417"
+    - "\u8FD9\u628A\u5927\u5200\u4E5F\u8BB8\u80FD\u5E2E\u52A9\u4F60\u54E6"
+  - lines:
+    - "\u52C7\u58EB,\u4F60\u7684\u4EFB\u52A1\u8FD8\u6CA1\u6709\u8FBE\u6210\u6761\u4EF6\u54E6"
+  - lines:
+    - "\u592A\u597D\u4E86\uFF0C\u975E\u5E38\u611F\u8C22\u4F60"
+    - "\u8FD9\u70B9\u5FC3\u610F\u8BF7\u7B11\u7EB3"
+  - lines:
+    - "\u6211\u4EEC\u6751\u5B50\u6C38\u8FDC\u6B22\u8FCE\u60A8,\u52C7\u8005"
+  startReward: {fileID: 11400000, guid: 5c380418cd00d4fb1b912b6d7cbb9a27, type: 2}
+  endReward: {fileID: 11400000, guid: e031d7ca560aa4e12acda4f32d04c4ca, type: 2}
+  enemyCountNeed: 3
+  currentEnemyCount: 0

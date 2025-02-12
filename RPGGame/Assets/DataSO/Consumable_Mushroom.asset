@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de47593c8372d4d19ad68f516096441f, type: 3}
+  m_Name: Consumable_Mushroom
+  m_EditorClassIdentifier: 
+  id: 3
+  itemName: "\u8FF7\u5E7B\u8611\u83C7"
+  itemType: 1
+  description: "\u725B\u903C\u7684\u8611\u83C7"
+  propertyList:
+  - itemPropertyType: 2
+    value: 30
+  icon: {fileID: 21300000, guid: dda06c7bd56cb4b03a7c497118fdfaf8, type: 3}
+  prefab: {fileID: 6325803938898980188, guid: 60317da9a04ae49fb917e5eb26e26bd0, type: 3}
